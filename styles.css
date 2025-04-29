@@ -1,0 +1,30 @@
+/* CSS selector */
+body{
+    /* decleration*/
+    /* CSS rule*/
+    background: repeating-linear-gradient(to bottom, #7b2ff7, #f107a3 50%, #7b2ff7 100%);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerlogo{ 
+    /*longhand*/
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+    
+     /*Shorthand*/
+     border: black 4px solid;
+     padding: 10px;
+     margin: 10px;
+    }
+
+.navigation_list{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
